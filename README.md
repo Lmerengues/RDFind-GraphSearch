@@ -26,7 +26,7 @@ cmd>RDFind -j1 results1.txt results2.txt
 注意：results1.txt和results2.txt可以是同一个文件！
 ### 任务五：当任务中其中一个文件非常大时（假设内存放不下，如是1.6G的kb.txt），如何让上述*连接*命令运行得更快。
  
-###任务六：实现一个命令GraphSearch
+### 任务六：实现一个命令GraphSearch
 将kb.txt中所有宾语是信息实体（即不被引号包含的主语和宾语）三元组在内存中构建成一个图，从图中某一指定节点出发，在限定步长内查找包含指定关键词的节点，对每个找到的节点，返回从出发节点到找到节点的全路径。
 cmd>GraphSearch "tom_hanks" 2 "tom cruise"
 表示的是以tom_hanks为出发节点，在图上搜索步长为2以内的（包括2），包含两个关键字Tom和cruise的信息实体
